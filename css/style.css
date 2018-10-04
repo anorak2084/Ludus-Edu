@@ -851,3 +851,7 @@ more media queries
 	div#rodape{
 		font-size: 14px;
 	}
+
+	div.ajuste{
+		margin-left: 200px;
+	}
