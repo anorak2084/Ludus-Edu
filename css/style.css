@@ -797,8 +797,9 @@ more media queries
 		font-weight: 700;
 	}
 	span#ludtext{
-		color: rgb(140, 198, 63);
+		color: rgba(red, green, blue, alpha);
 		font-weight: 800;
+		text-shadow: 3px 3px 3px #3a3a3a ; 
 	}
 	ul.nav li{
 		font-size: 14;
