@@ -276,7 +276,7 @@ var Grid = (function() {
 		// if a preview exists and previewPos is different (different row) from item´s top then close it
 		if( typeof preview != 'undefined' ) {
 
-			// not in the same row
+			// not in the same 
 			if( previewPos !== position ) {
 				// if position > previewPos then we need to take te current preview´s height in consideration when scrolling the window
 				if( position > previewPos ) {

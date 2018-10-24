@@ -120,7 +120,7 @@
         <div class="col-md-12">
           <div id="carousel-service" class="service carousel slide">
 
-            <!-- slides -->
+            <!-- Notícias -->
             <div class="carousel-inner">
               
               <div class="item active">
@@ -196,15 +196,15 @@
     </div>
   </section>
 
-  <!-- Aplicativo // Funções  -->
+  <!-- Aplicativo -->
   <section id="portfolio" class="home-section bg-gray">
     <div class="container">
       <div class="row">
         <div class="col-md-offset-2 col-md-8">
           <div class="section-heading">
-            <h2>Funções</h2>
+            <h2>Aplicativo</h2>
             <div class="heading-line"></div>
-            <p>Estas são as funções do aplicativo:</p>
+            <p>Conheça nosso APP, click nas imagens para mais detalhes.</p>
           </div>
         </div>
       </div>
@@ -310,6 +310,7 @@
           <div class="box-team wow bounceInUp" data-wow-delay="0.1s">
             <img src="img/team/1.jpg" alt="" class="img-circle img-responsive" />
             <h4>Jonas Fortes</h4>
+            <p>Data de Início: 12/12/18<br>Data de Término: 03/06/20</p>
             <p>Desenvolvimento do Site <br><span id="css">(CSS3)</span></p>
           </div>
         </div>
@@ -357,20 +358,20 @@
 
       <div class="row">
         <div class="col-md-offset-2 col-md-8">
-          <div id="sendmessage">Your message has been sent. Thank you!</div>
-          <div id="errormessage"></div>
+          <div class="sendmessage">Sua Mensagem Foi Enviada, Obrigado!</div>
+          <div class="errormessage"></div>
 
-          <form action="" method="post" class="form-horizontal contactForm" role="form">
+          <form id="formulario" action="" method="post" class="form-horizontal contactForm" role="form">
             <div class="col-md-offset-2 col-md-8">
               <div class="form-group">
-                <input type="text" name="name" class="form-control" id="name" placeholder="Seu Nome" data-rule="minlen:4" data-msg="Please enter at least 4 chars" />
+                <input type="text" name="name" class="form-control" id="name" placeholder="Seu Nome" data-rule="minlen:4" data-msg="Please enter at least 4 chars"  required/>
                 <div class="validation"></div>
               </div>
             </div>
 
             <div class="col-md-offset-2 col-md-8">
               <div class="form-group">
-                <input type="email" class="form-control" name="email" id="email" placeholder="Seu Email" data-rule="email" data-msg="Please enter a valid email" />
+                <input type="email" class="form-control" name="email" id="email" placeholder="Seu Email" data-rule="email" data-msg="Please enter a valid email" required/>
                 <div class="validation"></div>
               </div>
             </div>
@@ -384,7 +385,7 @@
 
             <div class="col-md-offset-2 col-md-8">
               <div class="form-group">
-                <textarea class="form-control" name="message" rows="5" data-rule="required" data-msg="Please write something for us" placeholder="Mensagem"></textarea>
+                <textarea class="form-control" name="message" id='message' rows="5" data-rule="required" data-msg="Please write something for us" placeholder="Mensagem"></textarea>
                 <div class="validation"></div>
               </div>
             </div>
@@ -414,7 +415,7 @@
             </p>
           </div>
         </div>
-        <!-- <div class="col-md-4">
+        <div class="col-md-4">
           <div class="contact-widget wow bounceInUp">
             <i class="fa fa-phone fa-4x"></i>
             <h5>Telefone</h5>
@@ -423,7 +424,7 @@
 
             </p>
           </div>
-        </div> -->
+        </div>
         <div class="col-md-4">
           <div class="contact-widget wow bounceInRight">
             <i class="fa fa-envelope fa-4x"></i>
@@ -504,9 +505,13 @@
   <script src="js/stellar.js"></script>
   <!-- Contact Form JavaScript File -->
   <script src="contactform/contactform.js"></script>
-
+  
   <!-- Template Custom Javascript File -->
   <script src="js/custom.js"></script>
-
+  
+  <!-- Envio de formulario Firebase -->
+  <script src="https://www.gstatic.com/firebasejs/5.5.5/firebase.js"></script>
+  <script src="js/form.js"></script>
+  
 </body>
 </html>

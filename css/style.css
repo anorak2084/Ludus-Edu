@@ -304,7 +304,7 @@ Intro
 	font-size: 24px;
 	text-align:center;
 	font-weight: 300;
-}
+}	
 
 /* ================================
 About
@@ -623,7 +623,7 @@ Contact
   font-size:13px;
 }
 
-#sendmessage {
+.sendmessage {
   color: green;
   border:1px solid green;
   display:none;
@@ -633,7 +633,7 @@ Contact
   margin-bottom:15px;
 }
 
-#errormessage {
+.errormessage {
   color: red;
   display:none;
   border:1px solid red;
@@ -853,6 +853,6 @@ more media queries
 		font-size: 14px;
 	}
 
-	div.ajuste{
+	/* div.ajuste{
 		margin-left: 200px;
-	}
+	} */
