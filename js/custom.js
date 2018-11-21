@@ -58,7 +58,7 @@
 
       images: [
         "img/bgslides/teste.jpeg",
-        "img/bgslides/2.jpg",
+        "img/bgslides/lampadas.jpg",
         "img/bgslides/3.jpg"
       ],
 
